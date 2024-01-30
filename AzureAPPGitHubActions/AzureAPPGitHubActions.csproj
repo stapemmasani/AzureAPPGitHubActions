@@ -4,6 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/3faed687-f8a6-42a8-aac7-3b3b2c345079/resourceGroups/azlearning/providers/microsoft.insights/components/appservicegithub</ApplicationInsightsResourceId>
+    <UserSecretsId>30ac16b6-2752-4b91-b11c-267e0cebc921</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
